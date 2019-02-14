@@ -82,5 +82,6 @@
     <Build Include="Service\Tables\Services.sql" />
     <Build Include="Service\Tables\OrdersHistory.sql" />
     <Build Include="Service\Tables\Orders.sql" />
+    <Build Include="Security\rapOp.sql" />
   </ItemGroup>
 </Project>
