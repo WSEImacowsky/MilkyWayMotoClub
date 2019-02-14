@@ -59,6 +59,9 @@
     <Folder Include="Properties" />
     <Folder Include="dbo\" />
     <Folder Include="dbo\Tables\" />
+    <Folder Include="HR\" />
+    <Folder Include="HR\Tables\" />
+    <Folder Include="Security\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Orders.sql" />
@@ -67,5 +70,8 @@
     <Build Include="dbo\Tables\Clients.sql" />
     <Build Include="dbo\Tables\CatalogPrices.sql" />
     <Build Include="dbo\Tables\Brands.sql" />
+    <Build Include="HR\Tables\TeamsDictionary.sql" />
+    <Build Include="HR\Tables\PositionDictionary.sql" />
+    <Build Include="Security\HR.sql" />
   </ItemGroup>
 </Project>
