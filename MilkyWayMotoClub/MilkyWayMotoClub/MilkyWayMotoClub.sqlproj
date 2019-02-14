@@ -74,5 +74,7 @@
     <Build Include="HR\Tables\PositionDictionary.sql" />
     <Build Include="Security\HR.sql" />
     <Build Include="HR\Tables\Salaries.sql" />
+    <Build Include="HR\Tables\Payments.sql" />
+    <Build Include="Security\Service.sql" />
   </ItemGroup>
 </Project>
