@@ -62,6 +62,8 @@
     <Folder Include="HR\" />
     <Folder Include="HR\Tables\" />
     <Folder Include="Security\" />
+    <Folder Include="Service\" />
+    <Folder Include="Service\Tables\" />
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tables\Orders.sql" />
@@ -76,5 +78,9 @@
     <Build Include="HR\Tables\Salaries.sql" />
     <Build Include="HR\Tables\Payments.sql" />
     <Build Include="Security\Service.sql" />
+    <Build Include="Service\Tables\StatusOrderDictionary.sql" />
+    <Build Include="Service\Tables\Services.sql" />
+    <Build Include="Service\Tables\OrdersHistory.sql" />
+    <Build Include="Service\Tables\Orders.sql" />
   </ItemGroup>
 </Project>
